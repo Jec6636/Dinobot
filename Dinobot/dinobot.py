@@ -8,7 +8,7 @@ def get_image_as_base64(path):
     return base64.b64encode(data).decode()
 
 # === CONFIG ===
-GOOGLE_API_KEY = "AIzaSyCaFkxX3LtZcQ20nEC8wqdT27IS8Gx67Ww"  # Replace this!
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]  # Replace this!
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 

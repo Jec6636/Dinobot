@@ -39,7 +39,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # === BIG DINO HEADER (Works for Local Images) ===
-st.image("dino.png", width=250)  # Adjust width as needed
+st.image("Dinobot/dino.png", width=250)  # Adjust width as needed
 st.markdown("## DinoBot")
 st.write("Friendly, helpful, and efficient – your dino assistant is here!")
 
